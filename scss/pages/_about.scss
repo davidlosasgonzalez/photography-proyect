@@ -1,0 +1,22 @@
+/* our teams */
+.teamsBlock {
+  .image {
+    margin: 0 0 20px;
+
+    img {
+      @media only screen and (max-width: 767px) {
+        width: 100%;
+      }
+    }
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+  }
+}
